@@ -5,7 +5,8 @@
 
 .main-header {
   @include header-font;
-  
+  background-color: $color-yellow-light;
+
   &__nav {
     display: grid;
     grid-template-rows: 83px;
@@ -125,7 +126,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     transform: translateX(-50%);
   }
   
@@ -153,7 +154,7 @@
     z-index: 10;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
   &__expanded-nav-list {

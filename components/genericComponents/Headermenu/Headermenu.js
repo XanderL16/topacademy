@@ -78,7 +78,6 @@ export default class Headermenu extends Component {
 		);
 	}
 
-
 	render() {
 		return (
 			<>
