@@ -62,17 +62,17 @@ function getDefaultTags() {
 		"bingbot": "all",
 		"googlebot": "all",
 		"robots": "all",
-		// OpenGraph
-		"og:site_name": "TopAcademy",
-		"og:title": "TopAcademy",
+	// OpenGraph
+	"og:site_name": "TopTrips",
+	"og:title": "TopTrips",
 		"og:description": description,
 		"og:image": imageUrl,
 		"og:type": "website",
-		// Twitter
-		"twitter:site": "@TopAcademy",
+	// Twitter
+	"twitter:site": "@TopTrips",
 		"twitter:card": "summary_large_image",
 		"twitter:image": imageUrl,
-		"twitter:title": "TopAcademy",
+	"twitter:title": "TopTrips",
 		"twitter:description": description
 	};
 }
