@@ -2,7 +2,7 @@
 @import "../../../styles/colors.scss";
 
 
-.course-page {
+.profile-page {
   
   &__main-content {
     display: grid;
@@ -19,13 +19,13 @@
 
 
 @media only screen and (min-width: 500px) {
-  .course-page {}
+  .profile-page {}
 }
 
 
 
 @media only screen and (min-width: 850px) {
-  .course-page {
+  .profile-page {
 
     &__main-content {
       grid-template-columns: auto 552px auto;
@@ -42,7 +42,7 @@
 
 
 @media only screen and (min-width: 1250px) {
-  .course-page {
+  .profile-page {
 
     &__main-content {
       grid-template-columns: auto 729px auto;
@@ -57,7 +57,7 @@
 
 
 @media only screen and (min-width: 1400px) {
-  .course-page {
+  .profile-page {
 
     &__main-content {
       grid-template-columns: auto 835px auto;
@@ -68,7 +68,7 @@
 
 
 @media only screen and (min-width: 1600px) {
-  .course-page {
+  .profile-page {
 
     &__main-content {
       grid-template-columns: auto 920px auto;

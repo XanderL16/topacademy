@@ -7,7 +7,7 @@ export default function Page({ story, preview, socialtags, menu }) {
     resolveRelations: [
       "hero.colorcode",
       "leftrightblock.colorcode",
-      "course.colorcode",
+      "profile.colorcode",
       "artist.colorcode",
       "song.colorcode",
       "person.colorcode",
@@ -15,8 +15,8 @@ export default function Page({ story, preview, socialtags, menu }) {
       "location.colorcode",
       "artist.songs",
       "song.artist",
-      "course.teachers",
-      "course.products",
+      "profile.teachers",
+      "profile.products",
       "list.elements"
     ]
   }, preview);
@@ -38,7 +38,7 @@ export async function getStaticProps({ params }) {
     resolve_relations: [
       "hero.colorcode",
       "leftrightblock.colorcode",
-      "course.colorcode",
+      "profile.colorcode",
       "artist.colorcode",
       "song.colorcode",
       "person.colorcode",
@@ -46,8 +46,8 @@ export async function getStaticProps({ params }) {
       "location.colorcode",
       "artist.songs",
       "song.artist",
-      "course.teachers",
-      "course.products",
+      "profile.teachers",
+      "profile.products",
       "list.elements"
     ]
   };

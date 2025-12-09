@@ -16,7 +16,7 @@ import Menulink from '../components/genericComponents/Menulink/Menulink';
 import Paragraph from '../components/genericComponents/Paragraph/Paragraph';
 import Intro from '../components/genericComponents/Intro/Intro';
 import LeftRightBlock from '../components/genericComponents/LeftRightBlock/LeftRightBlock';
-import Course from '../components/specificComponents/Course/Course';
+import Profile from '../components/specificComponents/Profile/Profile';
 import List from '../components/genericComponents/List/List';
 import Element from '../components/genericComponents/Element/Element';
 import OneCol from '../components/layoutComponents/OneCol/OneCol';
@@ -39,7 +39,7 @@ const components = {
   paragraph: Paragraph,
   intro: Intro,
   leftrightblock: LeftRightBlock,
-  course: Course,
+  profile: Profile,
   list: List,
   element: Element,
   onecol: OneCol,

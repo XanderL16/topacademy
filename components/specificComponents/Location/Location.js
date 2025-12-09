@@ -18,7 +18,7 @@ export default class Location extends Component {
 				<Headermenu blok={this.props.menu.content}></Headermenu>
 
 				<main>
-					<Hero blok={this.props.blok} contentTypeTag="course" />
+					<Hero blok={this.props.blok} contentTypeTag="profile" />
 					<div className={css["location-page__main-content"]}>
 						<div id="location-page__short-description" key="location-page__short-description" className={css["location-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
