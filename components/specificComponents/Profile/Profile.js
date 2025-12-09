@@ -1,5 +1,5 @@
 ﻿import React, { Component } from "react";
-import css from "./Profile.module.scss";
+import css from "./profile.module.scss";
 import Headermenu from "../../genericComponents/Headermenu/Headermenu";
 import Hero from "../../genericComponents/Hero/Hero";
 import TeacherCard from "../TeacherCard/TeacherCard";
